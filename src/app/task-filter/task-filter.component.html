@@ -1,0 +1,14 @@
+<div class="container">
+  <label class="filterr">Filtrar tareas:</label>
+  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-outline-primary" (click)="setFilter('all')">
+      <input type="radio" name="filter" autocomplete="off" checked> Todas
+    </label>
+    <label class="btn btn-outline-primary" (click)="setFilter('completed')">
+      <input type="radio" name="filter" autocomplete="off"> Completadas
+    </label>
+    <label class="btn btn-outline-primary" (click)="setFilter('incomplete')">
+      <input type="radio" name="filter" autocomplete="off"> No completadas
+    </label>
+  </div>
+</div>
